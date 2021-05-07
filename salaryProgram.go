@@ -5,9 +5,9 @@
 
 package main
 
-import (
-    "fmt"
-    "github.com/leekchan/accounting"
+import ( 
+	"fmt"
+	"github.com/leekchan/accounting"
 )
 
 func main() {
@@ -15,7 +15,7 @@ func main() {
   accountingFormater := accounting.Accounting{Symbol: "$", Precision: 2}
 	var hoursWorked int
 	var hourlyRate int
-  
+
 	// input
 	fmt.Println("This program calculates the users salary")
 	fmt.Println()
@@ -30,7 +30,7 @@ func main() {
 	var tax = 0.18 * float64(hoursWorked * hourlyRate)
 
 	// output
-	fmt.Println("Your pay will be: ", accountingFormater.FormatMoney(pay))
+	fmt.Println("Your pay will be:", accountingFormater.FormatMoney(pay))
 	fmt.Println("You will pay", accountingFormater.FormatMoney(tax), "in taxes")
 
 }
