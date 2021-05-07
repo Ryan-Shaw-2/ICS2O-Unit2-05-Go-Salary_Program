@@ -1,1 +1,2 @@
 # ICS2O-Unit2-05-Go-Salary_Program
+[![GitHub's Super Linter](https://github.com/Ryan-Shaw-2/ICS2O-Unit2-05-Go-Salary_Program/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Ryan-Shaw-2/ICS2O-Unit2-05-Go-Salary_Program/actions)
