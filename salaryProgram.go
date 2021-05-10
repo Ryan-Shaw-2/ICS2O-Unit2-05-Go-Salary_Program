@@ -27,8 +27,8 @@ func main() {
 	fmt.Println()
 
 	// process
-	var pay = float64(hoursWorked * hourlyRate) * (1.00 - 0.18)
-	var tax = 0.18 * float64(hoursWorked * hourlyRate)
+  var pay = float64(hoursWorked * hourlyRate) * (1.00 - 0.18)
+  var tax = 0.18 * float64(hoursWorked * hourlyRate)
 
 	// output
 	fmt.Println("Your pay will be:", accountingFormater.FormatMoney(pay))
