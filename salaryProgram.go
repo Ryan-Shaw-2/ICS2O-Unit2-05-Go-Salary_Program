@@ -13,7 +13,7 @@ import (
 
 func main() {
     // This function displays currency
-    accountingFormater: = accounting.Accounting {Symbol: "$", Precision: 2}
+    accountingFormater := accounting.Accounting {Symbol: "$", Precision: 2}
     var hoursWorked int
     var hourlyRate int
 
