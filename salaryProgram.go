@@ -18,8 +18,8 @@ func main() {
 	var hourlyRate int
 
   // input
-  fmt.Println("This program calculates the users salary")
-  fmt.Println()
+	fmt.Println("This program calculates the users salary")
+	fmt.Println()
 	fmt.Print("Enter your number of hours worked: ")
 	fmt.Scanln(&hoursWorked)
 	fmt.Print("Enter your hourly rate: ")
