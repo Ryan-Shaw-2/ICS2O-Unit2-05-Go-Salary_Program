@@ -16,7 +16,7 @@ func main() {
 	accountingFormater := accounting.Accounting{Symbol: "$", Precision: 2}
 	var hoursWorked int
 	var hourlyRate int
-	
+
 	// input
 	fmt.Println("This program calculates the users salary")
 	fmt.Println()
@@ -25,11 +25,11 @@ func main() {
 	fmt.Print("Enter your hourly rate: ")
 	fmt.Scanln(&hourlyRate)
 	fmt.Println()
-  
+
 	// process
 	var pay = float64(hoursWorked * hourlyRate) * (1.00 - 0.18)
 	var tax = 0.18 * float64(hoursWorked * hourlyRate)
-  
+
 	// output
 	fmt.Println("Your pay will be:", accountingFormater.FormatMoney(pay))
 	fmt.Println("You will pay", accountingFormater.FormatMoney(tax), "in taxes")
