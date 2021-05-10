@@ -16,7 +16,7 @@ func main() {
 	accountingFormater := accounting.Accounting{Symbol: "$", Precision: 2}
 	var hoursWorked int
 	var hourlyRate int
-  
+	
 	// input
 	fmt.Println("This program calculates the users salary")
 	fmt.Println()
