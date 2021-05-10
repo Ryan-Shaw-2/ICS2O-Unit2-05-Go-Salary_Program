@@ -1,6 +1,6 @@
 // Created by: Ryan-Shaw-2
 // Created on: May 2021
-// 
+//
 // This program calculates the users salary
 
 package main
