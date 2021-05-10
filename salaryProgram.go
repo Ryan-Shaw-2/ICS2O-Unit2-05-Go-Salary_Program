@@ -13,16 +13,16 @@ import (
 
 func main() {
 	// This function displays currency
-	accountingFormater := accounting.Accounting{Symbol: "$", Precison: 2}
+	accountingFormater := accounting.Accounting{Symbol: "$", Precision: 2}
 	var hoursWorked int
 	var hourlyRate int
 
 	// input
 	fmt.Println("This program calculates the users salary")
 	fmt.Println()
-	fmt.Print("Enter your number of hours worked")
+	fmt.Print("Enter your number of hours worked: ")
 	fmt.Scanln(&hoursWorked)
-	fmt.Print("Enter your hourlyRate")
+	fmt.Print("Enter your hourlyRate: ")
 	fmt.Scanln(&hourlyRate)
 	fmt.Println()
 
